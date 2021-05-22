@@ -1,0 +1,22 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.btn-container button {
+  width: 100%;
+  max-width: 15rem;
+  height: 3rem;
+  background: chocolate;
+  color: #fff;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.btn-container button:disabled {
+  background: #CCC;
+  cursor: not-allowed;
+}
